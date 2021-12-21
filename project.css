@@ -1,0 +1,418 @@
+body {
+    margin: 0px;
+}
+
+.image-logo {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+.anchor {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: #ffffff;
+    background-color: green;
+    height: 25px;
+    width: 130px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+header {
+    height: 10vh;
+    background-color: #e88035;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    box-shadow: 5px 10px #e0d8d7;
+}
+
+a {
+    padding-left: 20px;
+}
+
+#icon1 {
+    margin: 0px;
+    background-color: #e0d8d7;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+#icon2 {
+    margin-left: 20px;
+    background-color: #e0d8d7;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+#icon3 {
+    margin-left: 30px;
+    background-color: #e0d8d7;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.section-container {
+    background-color: #e0d8d7;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icecream-image {
+    margin-right: 90px;
+    border-width: 0px;
+    height: 500px;
+    width: 650px;
+    border-radius: 5px;
+}
+
+#cream {
+    position: relative;
+    bottom: 30px;
+    right: 100px;
+}
+
+.fa-ice-cream {
+    color: blue;
+}
+
+.paragraph {
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.para {
+    color: green;
+    font-size: 25px;
+    padding-left: 90px;
+    font-family: "Roboto";
+}
+
+.heading {
+    color: #0b134d;
+    font-size: 30px;
+    font-family: "Roboto";
+    padding-left: 90px;
+}
+
+.para1 {
+    color: grey;
+    font-size: 23px;
+    padding-left: 90px;
+}
+
+.btn1 {
+    color: #ffffff;
+    background-color: #0b134d;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 30px;
+    width: 180px;
+    margin-left: 90px;
+}
+
+.text-container {
+    padding-right: 10px;
+}
+
+#big-container {
+    background-color: #e0d8d7;
+    box-shadow: 5px 10px #e0d8d7;
+}
+
+.btn2 {
+    color: #ffffff;
+    background-color: #0b134d;
+    border-width: 0px;
+    border-radius: 8px;
+    height: 30px;
+    width: 150px;
+    margin-left: 90px;
+}
+
+.top-section {
+    background-color: #ffffff;
+}
+
+.para2 {
+    color: green;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    background-color: #e0d8d7;
+}
+
+.container-1 {
+    background-color: #e0d8d7;
+    border-radius: 10px;
+    height: 370px;
+    width: 300px;
+    box-shadow: honeydew;
+    cursor: pointer;
+}
+
+.special-icecream {
+    height: 170px;
+    width: 170px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.special-heading {
+    color: #0b134d;
+    font-size: 20px;
+    position: relative;
+    left: 65px;
+}
+
+.fa-star {
+    color: green;
+    height: 5px;
+    width: 5px;
+    padding-left: 10px;
+}
+
+.star-div {
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+
+.button {
+    position: relative;
+    bottom: 30px;
+}
+
+.heading3 {
+    color: green;
+    position: relative;
+    top: 14px;
+    left: 40px;
+}
+
+.bg-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#section2 {
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-image {
+    height: 120px;
+    width: 120px;
+    border: 1px grey dotted;
+    margin: 10px;
+}
+
+.top-section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.image-2 {
+    height: 450px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.medium-continer {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.medium-container-1 {
+    display: none;
+}
+
+.medium-container-2 {
+    display: none;
+}
+
+.medium-container-3 {
+    display: none;
+}
+
+.medium-heading {
+    color: #0b134d;
+    font-size: 20px;
+    padding-right: 590px;
+}
+
+.small-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+
+.icon-section {
+    position: relative;
+    bottom: 25px;
+    right: 310px;
+}
+
+.medium-paragraph {
+    color: #0b134d;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.fa-truck {
+    color: green;
+}
+
+.deliveryBtn {
+    border: 1px solid grey;
+    background-color: #ffffff;
+    height: 20px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.fa-dollar-sign {
+    color: green;
+}
+
+.fa-clock {
+    color: green;
+}
+
+.span-2 {
+    padding-left: 5px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-image {
+    height: 450px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+.about-heading {
+    color: #0b134d;
+    font-size: 25px;
+    padding-left: 90px;
+}
+
+.about-paragraph {
+    padding-left: 90px;
+}
+
+.btnSection {
+    margin-left: 90px;
+}
+
+.about-container-1 {
+    padding-top: 60px;
+}
+
+.footer {
+    background-color: #0f2030;
+    height: 30vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.japan {
+    padding-bottom: 30px;
+}
+
+.contact-heading {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+
+.head-4 {
+    padding-right: 80px;
+    font-size: 25px;
+    color: #0f2030;
+}
+
+.span-5 {
+    color: green;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.s-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-eye {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.fa-heart {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.fa-eye:hover {
+    cursor: pointer;
+    background-color: green;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.fa-heart:hover {
+    cursor: pointer;
+    background-color: green;
+    margin-top: 10px;
+    border-radius: 50%;
+}
